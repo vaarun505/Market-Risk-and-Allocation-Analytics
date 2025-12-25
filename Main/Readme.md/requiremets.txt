@@ -1,0 +1,9 @@
+Required Libraries : 
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels(serious finance regression(CAPM, Fama-French))
+yfinance(stock market data)
+pandas-datareader(factor & macro data)
