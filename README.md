@@ -45,6 +45,8 @@ This project answers four core investment questions:
 
 ## 📁 Project Structure
 
+```text
+
 📊 MARKET RISK & ALLOCATION ANALYTICS
 │
 ├── 📂 data/
