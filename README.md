@@ -8,9 +8,11 @@
 The goal of the project is to construct an equity portfolio, evaluate its risk and performance, and compare it objectively against a benchmark (S&P 500).
 
 The project focuses on practical investment analytics, not theoretical finance.
-Every step is aligned with how a real analyst or portfolio team would approach market data.⁡
+Every step is aligned with how a real analyst or portfolio team would approach market data.
+⁡
 ⁡⁢⁣⁢----------------------------------------------------------------------------------------------------------⁡
 ⁡⁢⁣⁢----------------------------------------------------------------------------------------------------------⁡
+
 # What This Project Answers :
 
 ⁡⁣⁢⁣This project answers four core questions:
@@ -19,7 +21,9 @@ Every step is aligned with how a real analyst or portfolio team would approach m
 2. How risky are individual stocks and the market?
 3. Can we construct a diversified portfolio from these stocks?
 4. Does the constructed portfolio perform better (or safer) than the benchmark?⁡
+
 ⁡⁢⁣⁢----------------------------------------------------------------------------------------------------------⁡
+
 # Tools & Technologies Used
 
 ⁡⁣⁢⁣Python
@@ -28,28 +32,48 @@ NumPy – numerical calculations
 Matplotlib / Seaborn – visualization
 yFinance – real market data
 Statsmodels – factor regression (Fama–French)⁡
+
 ⁡⁢⁣⁢----------------------------------------------------------------------------------------------------------⁡
-# Project Structure
+
+# Project Structure :
 
 ⁡⁣⁣⁢MARKET RISK & ALLOCATION ANALYTICS/
 │
+
 ├── data/
+
 │   ├── raw/          → raw downloaded market data
+
 │   ├── processed/    → cleaned & aligned datasets
+
 │
+
 ├── notebooks/
+
 │   ├── 01_Data_collection.ipynb
+
 │   ├── 02_Market_EDA.ipynb
+
 │   ├── 03_Risk_Analysis.ipynb
+
 │   ├── 04_Factor_Analysis.ipynb
+
 │   ├── 05_Portfolio_Construction.ipynb
+
 │
+
 ├── outputs/
+
 │   ├── figures/      → final charts & plots
+
 │   ├── tables/       → summary tables
+
 │
+
 ├── src/              → helper utilities (optional)
+
 ├── README.md⁡
+
 
 ⁡⁢⁣⁢----------------------------------------------------------------------------------------------------------⁡
 
