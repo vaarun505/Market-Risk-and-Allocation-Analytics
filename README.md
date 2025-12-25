@@ -43,32 +43,6 @@ This project answers four core investment questions:
 
 ---
 
-## 📁 Project Structure
-
-```text
-
-📊 MARKET RISK & ALLOCATION ANALYTICS
-│
-├── 📂 data/
-│   ├── 🗃 raw/            → raw downloaded market data
-│   ├── 🧹 processed/      → cleaned, aligned & analysis-ready datasets
-│
-├── 📓 notebooks/
-│   ├── 01_Data_collection.ipynb        → data sourcing & cleaning
-│   ├── 02_Market_EDA.ipynb              → exploratory market analysis
-│   ├── 03_Risk_Analysis.ipynb            → volatility, drawdowns & risk metrics
-│   ├── 04_Factor_Analysis.ipynb          → Fama–French factor modeling
-│   ├── 05_Portfolio_Construction.ipynb  → portfolio building & benchmarking
-│
-├── 📤 outputs/
-│   ├── 📈 figures/        → final visualizations & plots
-│   ├── 📊 tables/         → summary statistics & result tables
-│
-├── 🧩 src/                → helper utilities & reusable functions
-├── 📝 README.md           → project documentation
-
-
-
 ## 🔹 Phase-Wise Project Breakdown
 ---
 ### 🟦 Phase 1 — Setup & Environment
@@ -151,7 +125,33 @@ Convert asset-level analysis into a real investment portfolio and evaluate its e
 - Higher cumulative returns than the benchmark  
 - Smoother growth and lower volatility  
 - Smaller maximum drawdown than the benchmark  
-- Faster recovery during market stress periods  
+- Faster recovery during market stress periods
+
+---
+
+## 📁 Project Structure
+
+```text
+
+📊 MARKET RISK & ALLOCATION ANALYTICS
+│
+├── 📂 data/
+│   ├── 🗃 raw/            → raw downloaded market data
+│   ├── 🧹 processed/      → cleaned, aligned & analysis-ready datasets
+│
+├── 📓 notebooks/
+│   ├── 01_Data_collection.ipynb        → data sourcing & cleaning
+│   ├── 02_Market_EDA.ipynb              → exploratory market analysis
+│   ├── 03_Risk_Analysis.ipynb            → volatility, drawdowns & risk metrics
+│   ├── 04_Factor_Analysis.ipynb          → Fama–French factor modeling
+│   ├── 05_Portfolio_Construction.ipynb  → portfolio building & benchmarking
+│
+├── 📤 outputs/
+│   ├── 📈 figures/        → final visualizations & plots
+│   ├── 📊 tables/         → summary statistics & result tables
+│
+├── 🧩 src/                → helper utilities & reusable functions
+├── 📝 README.md           → project documentation
 
 📌 **Overall Outcome**  
 The portfolio delivers **superior risk-adjusted performance**, outperforming the benchmark while taking **less downside risk**.
