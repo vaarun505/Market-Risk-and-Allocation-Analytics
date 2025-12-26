@@ -38,7 +38,7 @@ This project answers four core investment questions:
 - 🔢 **NumPy** – numerical computations  
 - 📊 **Matplotlib / Seaborn** – data visualization  
 - 🌐 **yFinance** – real financial market data  
-- 🧠 **Statsmodels** – Fama–French factor regression  
+- 🧠 **Statsmodels** – Fama–French factor regression and OLS(Ordinary Least Squares) regression
 
 
 ---
